@@ -28,6 +28,17 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+   $(window).on("scroll", function() {
+    if($(window).scrollTop() > 250) {
+        $(".navbar").addClass("active");
+    }
+    else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".navbar").removeClass("active");
+    }
+  });
+</script>
 </head>
 
 <body>
@@ -102,7 +113,7 @@
 
   <section id="about">
     <h2 style="color:#be79df">Journey from ice-cream shop to own manufacturing</h2>
-    <hr class="ul">
+    <hr class="content2-hr">
     <div class="container container1">
       <p>Rock n Roll ice-cream company is owned and founded by Mr. Bhagwan Dass Kataria which is situated in <a href="https://g.page/rock-n-roll-ice-cream?share" target="_blank">
           Lane Number 11, Gandhi Colony, Muzaffarnagar, Uttar Pradesh (251001)</a>. Since, 2000 we are in the market because we are serving quality ice-cream to our customers.

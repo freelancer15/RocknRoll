@@ -7,27 +7,28 @@
 .discover{
   padding-bottom: 50px;
 }
-.card1{
+
+.card1 .cardlink{
   background-color:#f69e7b;
   color: #383e56;
 }
-.card2{
+.card2 .cardlink{
   background-color: #442727;
   color:#eae7d9;
 }
-.card3{
+.card3 .cardlink{
   background-color: #f3c623;
   color: #127681;
 }
-.card4{
+.card4 .cardlink{
   background-color: #a35638;
   color: #64ccda;
 }
-.card5{
+.card5 .cardlink{
   background-color: #e79cc2;
   color: #1d1b38;
 }
-.card6{
+.card6 .cardlink{
   background-color: #d32626;
   color: #79d70f;
 }

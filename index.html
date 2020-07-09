@@ -29,16 +29,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script type="text/javascript">
-   $(window).on("scroll", function() {
-    if($(window).scrollTop() > 250) {
+    $(window).on("scroll", function() {
+      if ($(window).scrollTop() > 250) {
         $(".navbar").addClass("active");
-    }
-    else {
+      } else {
         //remove the background property so it comes transparent again (defined in your css)
-       $(".navbar").removeClass("active");
-    }
-  });
-</script>
+        $(".navbar").removeClass("active");
+      }
+    });
+  </script>
 </head>
 
 <body>
@@ -137,69 +136,75 @@
 
     <div class="card-deck">
       <div class="card card1">
-        <img class="card-img-top" src="images/ice-cream.gif" alt="ice-cream">
-        <div class="card-body">
-          <h5 class="card-title">#FLAVOUR'S</h5>
-          <p class="card-text">We have wide variety of Flavours. Click to get full list.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Explore it !</small>
-        </div>
-      </div>
+        <a class="cardlink" href="flavours.html">
+          <img class="card-img-top" src="images/ice-cream.gif" alt="ice-cream">
+          <div class="card-body">
+            <h5 class="card-title">#FLAVOUR'S</h5>
+            <p class="card-text">We have wide variety of Flavours. Click to get full list.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Explore it !</small>
+          </div>
+      </div></a>
       <div class="card card2">
-        <img class="card-img-top" src="images/waffle.webp" alt="waffle">
-        <div class="card-body">
-          <h5 class="card-title">#WAFFLE'S</h5>
-          <p class="card-text">We have wide variety of Waffles. Click to get full list.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Explore it !</small>
-        </div>
-      </div>
+        <a class="cardlink" href="waffle.html">
+          <img class="card-img-top" src="images/waffle.webp" alt="waffle">
+          <div class="card-body">
+            <h5 class="card-title">#WAFFLE'S</h5>
+            <p class="card-text">We have wide variety of Waffles. Click to get full list.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Explore it !</small>
+          </div>
+      </div></a>
       <div class="card card3">
-        <img class="card-img-top" src="images/mocktail.gif" alt="mocktail">
-        <div class="card-body">
-          <h5 class="card-title">#MOCKTAIL'S</h5>
-          <p class="card-text">We have wide variety of Mocktails. Click to get full list.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Explore it !</small>
-        </div>
-      </div>
+        <a class="cardlink" href="mocktail.html">
+          <img class="card-img-top" src="images/mocktail.gif" alt="mocktail">
+          <div class="card-body">
+            <h5 class="card-title">#MOCKTAIL'S</h5>
+            <p class="card-text">We have wide variety of Mocktails. Click to get full list.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Explore it !</small>
+          </div>
+      </div></a>
     </div>
   </section>
   <section id="content2">
     <div class="card-deck">
       <div class="card card4">
-        <img class="card-img-top" src="images/sundae.gif" alt="sundae">
-        <div class="card-body">
-          <h5 class="card-title">#SUNDAE'S</h5>
-          <p class="card-text">We have wide variety of Sundaes. Click to get full list.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Explore it !</small>
-        </div>
-      </div>
+        <a class="cardlink" href="sundae.html">
+          <img class="card-img-top" src="images/sundae.gif" alt="sundae">
+          <div class="card-body">
+            <h5 class="card-title">#SUNDAE'S</h5>
+            <p class="card-text">We have wide variety of Sundaes. Click to get full list.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Explore it !</small>
+          </div>
+      </div></a>
       <div class="card card5">
-        <img class="card-img-top" src="images/shake.gif" alt="shake">
-        <div class="card-body">
-          <h5 class="card-title">#SHAKE'S</h5>
-          <p class="card-text">We have wide variety of Shakes. Click to get full list.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Explore it !</small>
-        </div>
-      </div>
+        <a class="cardlink" href="shake.html">
+          <img class="card-img-top" src="images/shake.gif" alt="shake">
+          <div class="card-body">
+            <h5 class="card-title">#SHAKE'S</h5>
+            <p class="card-text">We have wide variety of Shakes. Click to get full list.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Explore it !</small>
+          </div>
+      </div></a>
       <div class="card card6">
-        <img class="card-img-top" src="images/special.gif" alt="special">
-        <div class="card-body">
-          <h5 class="card-title">#OUR SPECIAL'S</h5>
-          <p class="card-text">Here you will get the Rock n Roll specials. Click to get full list.</p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">Explore it !</small>
-        </div>
-      </div>
+        <a class="cardlink" href="flavours.html">
+          <img class="card-img-top" src="images/special.gif" alt="special">
+          <div class="card-body">
+            <h5 class="card-title">#OUR SPECIAL'S</h5>
+            <p class="card-text">Here you will get the Rock n Roll specials. Click to get full list.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Explore it !</small>
+          </div>
+      </div></a>
     </div>
 
   </section>
@@ -301,6 +306,7 @@
                 </div>
               </div>
             </div>
+            <button type="button" class="btn btn-secondary btn-lg btn-outline-primary btn-feed"><i class="fas fa-comment-alt"></i> feedback</button>
           </section>
 
         </div>
@@ -314,60 +320,62 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
+
     </div>
-    <button type="button" class="btn btn-secondary btn-lg btn-outline-primary btn-feed"><i class="fas fa-comment-alt"></i> feedback</button>
+
   </section>
 
 
 
   <section id="contact">
     <footer class="text-gray-700 body-font">
-  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+      <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
 
-    <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Location:</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a style="color:#000000"> Lane Number 11, Gandhi Colony, Muzaffarnagar, Uttar Pradesh (251001)</a>
-          </li>
-          <li>
-            <a style="font-weight:bold" class="text-red-600 hover:text-blue" href="https://g.page/rock-n-roll-ice-cream?share" target="_blank">Location on google maps</a>
-          </li>
-        </nav>
-      </div>
-      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
-        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <img src="images/logo.png" style="width:20%" alt="logo-icon">
-          <span class="ml-3 text-xl" style="color:#000000">Rock n Roll</span>
-        </a>
-        <p class="mt-2 text-sm text-gray-500" style="color:#000000">Taste of Everyone</p>
-      </div>
+        <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Location:</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a style="color:#000000"> Lane Number 11, Gandhi Colony, Muzaffarnagar, Uttar Pradesh (251001)</a>
+              </li>
+              <li>
+                <a style="font-weight:bold" class="text-red-600 hover:text-blue" href="https://g.page/rock-n-roll-ice-cream?share" target="_blank">Location on google maps</a>
+              </li>
+            </nav>
+          </div>
+          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <img src="images/logo.png" style="width:20%" alt="logo-icon">
+              <span class="ml-3 text-xl" style="color:#000000">Rock n Roll</span>
+            </a>
+            <p class="mt-2 text-sm text-gray-500" style="color:#000000">Taste of Everyone</p>
+          </div>
 
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">About Developer:</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a style="color:#000000">Deveoped by Himanshu</a>
-          </li>
-          <li>
-            <a class="text-red-600 hover:text-blue-800" style="font-weight:bold" href="https://himanshujaidka.github.io/" target="_blank">Contact Developer</a>
-          </li>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">About Developer:</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a style="color:#000000">Developed by Himanshu</a>
+              </li>
+              <li>
+                <a class="text-red-600 hover:text-blue-800" style="font-weight:bold" href="https://himanshujaidka.github.io/" target="_blank">Contact Developer</a>
+              </li>
 
-        </nav>
-      </div>
+            </nav>
+          </div>
 
-  </div>
+        </div>
 
-</footer>
+    </footer>
 
-</section><hr>
+  </section>
+  <hr>
 
 
   <footer class="text-gray-700 body-font">
     <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <img src="images/logo.png" style="width:10% ;" alt="logo-icon">
+        <img src="images/logo.png" style="width:10% ;" alt="logo-icon">
         <span class="ml-3 text-xl" style="font-weight:bolder">Rock n Roll</span>
       </a>
       <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4" style="font-weight:bold">© 2020 Rock n Roll

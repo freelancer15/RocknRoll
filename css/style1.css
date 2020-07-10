@@ -2,7 +2,7 @@
   padding-top: 70px;
 }
 #content2{
-  padding-top: 100px;
+  padding-top: 70px;
 }
 .discover{
   padding-bottom: 50px;
@@ -24,7 +24,7 @@
   background-color: #a35638;
   color: #64ccda;
 }
-.card5 .cardlink{
+.card5 {
   background-color: #e79cc2;
   color: #1d1b38;
 }
@@ -56,18 +56,16 @@
 }
 #review{
   padding-top: 80px;
-  background-color: #222831;
+  background-color: #cfe5cf;
 }
 .leading-relaxed{
-  color: #29a19c;
+  color: #342b38;
   font-weight: bold;
 }
 .card-rev{
   margin-left: 20px;
   margin-top: 50px;
   border-radius: 20%;
-
-
   height: 20vw;
 }
 .card-new{
